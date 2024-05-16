@@ -1,0 +1,99 @@
+body{
+    background-image:url(bgimage.jpg);
+    background-size: cover;
+ 
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+    background: radial-gradient(pink);
+    /* background: rgb(248, 96, 142); */
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background: cover;
+    height: 420px;
+    width:280px ;
+    border: 1.5px solid rgb(250, 129, 165);
+    border-radius: 4%; 
+    box-shadow: 4px 5px 5px  rgb(65, 64, 65) ;  
+}
+.inner{
+    padding: 0 10px;
+    align-items: center;
+    
+}
+.heading{
+    margin-bottom: 40px;
+}
+.account{
+    height: 20px;
+    width: 150px;
+    margin-top:20px ;
+    margin-left: 50px;
+}
+#login{
+    text-decoration: white solid underline;
+}
+h1,h4{
+    text-align: center;
+    font-family:Arial Bold, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+h1{
+    color: white;
+    margin-top: 0;
+    padding-top:0 ;
+}
+h4{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+h4:active{
+    color: white;
+    text-decoration:white solid underline;
+}
+button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(215, 39, 95);
+    padding:2% 10%; 
+    margin-top: 10px;
+    margin-bottom: 1px;
+    color: black;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+    border: 2px solid rgb(215, 39, 95);
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+a:hover{
+    text-decoration: white underline;
+    color:white;
+}
+label{
+    color: rgb(192, 35, 85);
+}
+::placeholder{
+    color:rgb(192, 35, 85);
+}
+input{
+    margin-left: 8px;
+    height: 38px;
+    width: 200px;
+    border: 1px solid rgb(249, 141, 173) ;
+    border-radius: 10px;
+    outline: 1px solid rgb(209, 12, 81);
+}
+
+
